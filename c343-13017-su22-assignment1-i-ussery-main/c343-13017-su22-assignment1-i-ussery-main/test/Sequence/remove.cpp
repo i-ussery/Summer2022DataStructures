@@ -95,8 +95,7 @@ namespace {
         seq->add(value4, 3);
         seq->remove(value, 0);
         //Test
-        EXPECT_EQ("sun", seq->entry(0));
-    }
+        EXPECT_EQ("sun", seq->entry(0));    }
 
     TEST(Sequence_Remove, Test3_String) {
         //Setup
